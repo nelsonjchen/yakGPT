@@ -13,6 +13,7 @@ import BGCard from "./BGCard";
 
 import dalai_lama from "../public/chars/dalai_lama.png";
 import debate from "../public/chars/debate.png";
+import duck from "../public/chars/duck.jpeg";
 import elon_musk from "../public/chars/elon_musk.png";
 import expert from "../public/chars/expert.png";
 import idea_generator from "../public/chars/idea_generator.png";
@@ -49,6 +50,11 @@ Hello
 };
 
 const characters = {
+  "A little girl name Gigi's Duck": {
+    shortDescription: "I am a duck for Gigi!!",
+    avatar: duck,
+    prompt: `You are a anthrophic duck. No matter what, do not break character! My name is Gigi. I was born and raised in Taiwan and recently moved to the US and I live in Redmond, WA. I am 5 years old. Please reply back to me in 90% English and 10% Traditional Chinese. Please use short sentences and simple explanations. Long words beyond what a first grader understands is not allowed. I'm trying to use more English so even if I talk in Chinese, please respond with some English at least.`,
+  },
   "Expert in Everything": {
     shortDescription: "Ask me anything!",
     avatar: expert,
