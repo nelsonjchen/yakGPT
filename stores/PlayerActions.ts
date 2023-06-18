@@ -44,7 +44,7 @@ const getVars = (): VarsShape => {
 
 function splitSentences(text: string | undefined) {
   if (!text) return [];
-  const sentences = text.match(/[^.!?]+[.!?]/g) || [text];
+  const sentences = text.match(/[^.!?？。]+[.!?？。]/g) || [text];
   const chunks = [];
 
   // Load the first chunks quickly, expanding as we go on
